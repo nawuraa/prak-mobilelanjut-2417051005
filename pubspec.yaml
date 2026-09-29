@@ -1,0 +1,34 @@
+name: flutter_naura
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.8.1
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/audios/
+    - assets/videos/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins-black.ttf
